@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Sarah Jenkins | Radiance Dermatology Clinic</title>
+    <meta name="description" content="Professional medical care by Dr. Sarah Jenkins in Dubai.">
+
+    <!-- Google Fonts: Inter (Body) & Fraunces (Headings) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Schema.org Markup for Local Business / Physician -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Physician",
+      "name": "Dr. Sarah Jenkins",
+      "image": "https://www.radiancedermatology.ae/images/hero.png",
+      "telephone": "+971 50 123 4567",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Building 27, Dubai Healthcare City",
+        "addressLocality": "Dubai",
+        "postalCode": "00000",
+        "addressCountry": "AE"
+      }
+    }
+    </script>
+</head>
+
+<body>
+
+    <!-- 1. Header / Navigation -->
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="#" class="logo">Radiance Dermatology</a>
+
+            <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+                <span class="sr-only">Menu</span>
+                <div class="hamburger"></div>
+            </button>
+
+            <nav id="primary-navigation" class="primary-navigation">
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#testimonials">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="tel:+971501234567" class="phone-link">+971 50 123 4567</a>
+                <a href="#booking" class="btn btn-primary">Book Appointment</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- 2. Hero Section -->
+        <section id="home" class="hero fade-in">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <p class="hero-subtitle">Dr. Sarah Jenkins • MD, FAAD Dermatology</p>
+                    <h1 class="hero-title">Expert dermatological care tailored to your unique skin.</h1>
+                    <p class="hero-text">Over 15 years of experience delivering advanced, compassionate skincare in
+                        Dubai.</p>
+                    <div class="hero-buttons">
+                        <a href="#booking" class="btn btn-primary">Book an Appointment</a>
+                        <a href="tel:+971501234567" class="btn btn-secondary">Call Now</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="images/hero.png" alt="Portrait of Dr. Sarah Jenkins" loading="lazy" width="600"
+                        height="750" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Credentials / Trust Bar -->
+        <section class="trust-bar fade-in">
+            <div class="container trust-container">
+                <div class="trust-item">
+                    <span class="trust-number">15+</span>
+                    <span class="trust-label">Years Experience</span>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-number">10k+</span>
+                    <span class="trust-label">Patients Treated</span>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-number">MD, FAAD</span>
+                    <span class="trust-label">Board Certified</span>
+                </div>
+                <div class="trust-item">
+                    <span class="trust-number">4.9</span>
+                    <span class="trust-label">Google Rating</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. About the Doctor -->
+        <section id="about" class="about-section fade-in">
+            <div class="container about-container">
+                <div class="about-image-wrapper">
+                    <img src="images/about.png" alt="Dr. Jenkins at the clinic consulting with a patient" loading="lazy"
+                        width="500" height="600" class="about-image">
+                </div>
+                <div class="about-content">
+                    <h2 class="section-title">Meet Dr. Sarah Jenkins</h2>
+                    <p class="section-subtitle">Chief Dermatologist & Founder</p>
+                    <p>Dr. Sarah Jenkins graduated with honors from King's College London and completed her dermatology
+                        residency at Johns Hopkins University. She believes in treating the root cause of skin
+                        conditions rather than just the symptoms, taking a holistic approach to patient well-being and
+                        long-term skin health.</p>
+                    <p>She is fluent in English, Arabic, and French, ensuring clear and comfortable communication with
+                        our diverse international patient base.</p>
+                    <ul class="about-list">
+                        <li>Fellowship in Aesthetic Dermatology from National Skin Centre, Singapore</li>
+                        <li>Fellow of the American Academy of Dermatology (FAAD)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Services / Specializations -->
+        <section id="services" class="services-section fade-in bg-light">
+            <div class="container">
+                <div class="section-header center">
+                    <h2 class="section-title">Specialized Treatments</h2>
+                    <p class="section-subtitle">Comprehensive care for all your dermatological needs.</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z" />
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Clinical Dermatology</h3>
+                        <p class="service-desc">Expert diagnosis and treatment for acne, eczema, psoriasis, rosacea, and
+                            other chronic skin conditions.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Aesthetic Procedures</h3>
+                        <p class="service-desc">Safe, effective anti-aging treatments including Botox, dermal fillers,
+                            chemical peels, and laser resurfacing.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2v20" />
+                                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Hair & Scalp Care</h3>
+                        <p class="service-desc">Advanced solutions for hair loss, dandruff, and scalp infections,
+                            including PRP (Platelet-Rich Plasma) therapy.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Why Choose Us / Approach -->
+        <section class="features-section fade-in">
+            <div class="container features-container">
+                <div class="features-content">
+                    <h2 class="section-title">Why Patients Choose Us</h2>
+                    <ul class="feature-list">
+                        <li>
+                            <span class="feature-checkmark">✓</span>
+                            <div>
+                                <strong>Patient-First Approach</strong>
+                                <p>Unhurried consultations where your concerns are truly heard and understood.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="feature-checkmark">✓</span>
+                            <div>
+                                <strong>Advanced Technology</strong>
+                                <p>Utilizing FDA-approved, state-of-the-art equipment for safe and precise treatments.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="feature-checkmark">✓</span>
+                            <div>
+                                <strong>Transparent Pricing</strong>
+                                <p>Clear communication regarding treatment costs with no hidden fees or surprises.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6.5 International / Overseas Patient Section -->
+        <section class="features-section intl-section fade-in">
+            <div class="container features-container">
+                <div class="features-content">
+                    <h2 class="section-title">International & Overseas Patients</h2>
+                    <p class="section-subtitle">We warmly welcome patients from around the globe, providing seamless
+                        care across borders.</p>
+                    <ul class="feature-list">
+                        <li>
+                            <span class="feature-checkmark">✓</span>
+                            <div>
+                                <strong>Global Accessibility</strong>
+                                <p>Telehealth and video consultations available. Our typical inquiry response time is
+                                    within 24 hours across all timezones.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="feature-checkmark">✓</span>
+                            <div>
+                                <strong>Seamless Travel & Payments</strong>
+                                <p>We assist with visa-invitation letters, airport pickup, and local accommodation. We
+                                    accept international credit cards, PayPal, and Wise, with cost estimates provided in
+                                    USD, EUR, or AED.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="feature-checkmark">✓</span>
+                            <div>
+                                <strong>Confidentiality Guaranteed</strong>
+                                <p>Your medical information is kept strictly confidential and secured according to
+                                    international best practices.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. Testimonials -->
+        <section id="testimonials" class="testimonials-section fade-in bg-light">
+            <div class="container">
+                <div class="section-header center">
+                    <h2 class="section-title">Patient Stories</h2>
+                </div>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="testimonial-text">"Dr. Jenkins is incredibly patient and knowledgeable. She cured my
+                            persistent adult acne when nothing else worked. The clinic staff is also very welcoming and
+                            professional."</p>
+                        <p class="testimonial-author">— Emily C.</p>
+                        <p class="testimonial-condition">Treated for Adult Acne</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="testimonial-text">"I traveled from the UK specifically to see Dr. Jenkins. The waiting
+                            times are minimal, and she takes the time to explain the entire procedure. Very clean,
+                            modern, and professional environment."</p>
+                        <p class="testimonial-author">— James W.</p>
+                        <p class="testimonial-condition">Treated for Hair Loss</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. Clinic Details (Address, Map, Hours) & 9. Appointment Booking Form -->
+        <section id="contact" class="contact-section fade-in">
+            <div class="container contact-container">
+
+                <div class="clinic-details">
+                    <h2 class="section-title">Visit the Clinic</h2>
+
+                    <div class="detail-group">
+                        <h3>Location</h3>
+                        <p>Building 27, Dubai Healthcare City, Dubai, United Arab Emirates</p>
+                        <!-- Map -->
+                        <div class="map-placeholder">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14436.920556209594!2d55.31174620579979!3d25.23467664654924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5d3761858a71%3A0xc0062a4a796ed444!2sDubai%20Healthcare%20City!5e0!3m2!1sen!2sae!4v1700000000000!5m2!1sen!2sae"
+                                width="100%" height="250" style="border:0; border-radius: 8px;" allowfullscreen=""
+                                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+
+                    <div class="detail-group">
+                        <h3>Operating Hours <span class="timezone-label">(GST - Gulf Standard Time)</span></h3>
+                        <p id="today-status" class="today-status">Checking hours...</p>
+                        <table class="hours-table">
+                            <tbody>
+                                <tr data-day="1">
+                                    <td>Monday</td>
+                                    <td>10:00 AM - 6:00 PM</td>
+                                </tr>
+                                <tr data-day="2">
+                                    <td>Tuesday</td>
+                                    <td>10:00 AM - 6:00 PM</td>
+                                </tr>
+                                <tr data-day="3">
+                                    <td>Wednesday</td>
+                                    <td>10:00 AM - 6:00 PM</td>
+                                </tr>
+                                <tr data-day="4">
+                                    <td>Thursday</td>
+                                    <td>10:00 AM - 6:00 PM</td>
+                                </tr>
+                                <tr data-day="5">
+                                    <td>Friday</td>
+                                    <td>10:00 AM - 6:00 PM</td>
+                                </tr>
+                                <tr data-day="6">
+                                    <td>Saturday</td>
+                                    <td>10:00 AM - 2:00 PM</td>
+                                </tr>
+                                <tr data-day="0">
+                                    <td>Sunday</td>
+                                    <td>Closed</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="detail-group contact-methods">
+                        <a href="tel:+971501234567" class="btn btn-secondary full-width">Call Clinic</a>
+                        <a href="https://wa.me/971501234567" target="_blank" class="btn btn-whatsapp full-width">Chat on
+                            WhatsApp</a>
+                    </div>
+                </div>
+
+                <div id="booking" class="booking-form-container">
+                    <h2 class="section-title">Request an Appointment</h2>
+                    <p>Fill out the form below and our team will get back to you to confirm your slot. Alternatively,
+                        you can <a href="mailto:hello@radiancedermatology.ae">email us directly</a>.</p>
+
+                    <form id="appointment-form" action="https://api.web3forms.com/submit" method="POST"
+                        class="appointment-form">
+                        <!-- Replace with actual Web3Forms Access Key -->
+                        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="Jane Doe">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required placeholder="jane@example.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <div class="phone-input-group" style="display: flex; gap: 8px;">
+                                <select name="country_code"
+                                    style="width: 35%; padding: 0.75rem; border: 1px solid var(--color-border); border-radius: var(--border-radius-sm);">
+                                    <option value="+971">+971 (UAE)</option>
+                                    <option value="+44">+44 (UK)</option>
+                                    <option value="+1">+1 (US/CA)</option>
+                                    <option value="+61">+61 (AU)</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <input type="tel" id="phone" name="phone" required placeholder="00000 00000"
+                                    style="width: 65%;">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="country">Country of Residence *</label>
+                            <input type="text" id="country" name="country" required placeholder="e.g. United Kingdom">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="consultation_type">Consultation Type *</label>
+                            <select id="consultation_type" name="consultation_type" required>
+                                <option value="" disabled selected>Select an option</option>
+                                <option value="in_person">In-Person Clinic Visit</option>
+                                <option value="telehealth">Virtual / Telehealth Consultation</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="date">Preferred Date & Time <span class="timezone-note"
+                                    style="font-size: 0.85em; font-weight: normal; color: var(--color-text-muted);">(Please
+                                    specify in GST)</span></label>
+                            <input type="datetime-local" id="date" name="date">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="reason">Reason for Visit / Condition *</label>
+                            <input type="text" id="reason" name="reason" required placeholder="e.g. Acne consultation">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Additional Notes (Optional)</label>
+                            <textarea id="message" name="message" rows="3"
+                                placeholder="Any specific concerns..."></textarea>
+                        </div>
+
+                        <!-- Honeypot Spam Protection -->
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                        <button type="submit" class="btn btn-primary full-width">Submit Request</button>
+
+                        <div id="form-result" class="form-result"></div>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 10. FAQ Section -->
+        <section class="faq-section fade-in bg-light">
+            <div class="container faq-container">
+                <div class="section-header center">
+                    <h2 class="section-title">Frequently Asked Questions</h2>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <button class="accordion-header" aria-expanded="false">
+                            <span class="accordion-title">Do you accept international insurance?</span>
+                            <span class="accordion-icon"></span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>We work with a variety of major international health insurance providers. We also provide
+                                full documentation for out-of-network reimbursement claims. Contact our front desk for
+                                specific coverage inquiries.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header" aria-expanded="false">
+                            <span class="accordion-title">What should I bring to my first visit?</span>
+                            <span class="accordion-icon"></span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Please bring a valid ID/Passport, any previous medical records or lab results related to
+                                your skin condition, and a list of your current medications and skincare products.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header" aria-expanded="false">
+                            <span class="accordion-title">Are walk-ins allowed?</span>
+                            <span class="accordion-icon"></span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>We highly recommend booking an appointment to minimize your wait time, especially for
+                                patients traveling from abroad. However, we do try our best to accommodate urgent
+                                walk-in cases based on daily availability.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 11. Footer -->
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <a href="#" class="logo footer-logo">Radiance Dermatology</a>
+                <p class="footer-desc">Providing expert, compassionate dermatological care in Dubai.</p>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-heading">Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#booking">Book Appointment</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-heading">Legal</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><span class="reg-number">DHA Facility No: 54321</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; <span id="current-year"></span> Radiance Dermatology Clinic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
