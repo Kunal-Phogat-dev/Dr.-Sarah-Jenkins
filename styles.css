@@ -59,6 +59,74 @@ html {
     scroll-behavior: smooth;
 }
 
+/* ==========================================================================
+   Skeleton Preloader
+   ========================================================================== */
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-bg-base);
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    padding: var(--spacing-md) var(--spacing-lg);
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.preloader.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+@keyframes skeleton-shimmer {
+    0% { background-position: -1000px 0; }
+    100% { background-position: 1000px 0; }
+}
+
+.skeleton-line, .skeleton-box, .skeleton-header {
+    background: #e0e0e0;
+    background-image: linear-gradient(90deg, #e0e0e0 0px, #f0f0f0 40px, #e0e0e0 80px);
+    background-size: 1000px 100%;
+    animation: skeleton-shimmer 2s infinite linear;
+    border-radius: var(--border-radius-sm);
+}
+
+.skeleton-header {
+    height: 60px;
+    width: 100%;
+    margin-bottom: var(--spacing-xl);
+}
+
+.skeleton-content {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}
+
+.skeleton-line {
+    height: 20px;
+    width: 100%;
+}
+
+.skeleton-line.title {
+    height: 60px;
+    width: 70%;
+    margin-bottom: var(--spacing-md);
+}
+
+.skeleton-box {
+    height: 400px;
+    width: 100%;
+    margin-top: var(--spacing-lg);
+    border-radius: var(--border-radius-lg);
+}
+
 body {
     font-family: var(--font-body);
     font-size: 1rem; /* 16px */
