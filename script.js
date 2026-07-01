@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // --- 2. Scroll Animations (Intersection Observer) ---
-    const faders = document.querySelectorAll('.fade-in');
+    const faders = document.querySelectorAll('.fade-in, .slide-up, .slide-in-left, .slide-in-right');
     
     const appearOptions = {
         threshold: 0.15,
