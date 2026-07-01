@@ -1,14 +1,4 @@
-window.addEventListener('load', () => {
-    const preloader = document.getElementById('preloader');
-    if (preloader) {
-        setTimeout(() => {
-            preloader.classList.add('hidden');
-            setTimeout(() => {
-                preloader.style.display = 'none';
-            }, 500);
-        }, 600); // Slight delay so the user sees it gracefully
-    }
-});
+
 
 document.addEventListener('DOMContentLoaded', () => {
     
